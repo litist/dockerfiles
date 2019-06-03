@@ -21,7 +21,7 @@ ARG PYGMENTS=python3-pygments
 ARG FIG2DEV=fig2dev
 
 RUN apt-get update && apt-get install -y \
-  texlive-full \
+  texlive-full inkscape \
   # some auxiliary tools
   "$WGET" \
   "$GIT" \
